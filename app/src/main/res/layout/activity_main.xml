@@ -18,12 +18,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--报告头-->
             <include layout="@layout/content_header"/>
 
+            <!--基础数据-->
             <LinearLayout
                 android:paddingLeft="50px"
                 android:paddingRight="50px"
-                android:id="@+id/ll_content_basedata"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -41,6 +42,17 @@
                     android:background="#ff0000"
                     android:layout_width="match_parent"
                     android:layout_height="1px"/>
+
+            </LinearLayout>
+
+            <!--基础数据详细信息-->
+            <LinearLayout
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                android:id="@+id/ll_content_basedata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:background="#440000ff"
@@ -72,12 +84,66 @@
 
             </LinearLayout>
 
+            <!--示意图-->
+            <ImageView
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                android:src="@drawable/bg_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--关节角度-->
+            <LinearLayout
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/icon_report"
+                    android:textStyle="bold"
+                    android:text="关节活动角度"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <View
+                    android:background="#ff0000"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:src="@drawable/bg_main_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:src="@drawable/bg_main_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:src="@drawable/bg_main_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
 
     <LinearLayout
-
+        android:id="@+id/ll_content_control"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1">
