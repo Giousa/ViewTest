@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.zmm.viewtest.MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <LinearLayout
+            android:id="@+id/ll_content_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="#3300ffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_content_header_title"
+                    android:layout_centerInParent="true"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:text="新东方烹饪医院步态评估报告"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginLeft="60px"
+                    android:layout_toRightOf="@id/tv_content_header_title"
+                    android:src="@drawable/icon_report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingTop="10px"
+                android:paddingBottom="10px"
+                android:paddingLeft="50px"
+                android:layout_gravity="center"
+                android:background="#3300ff00"
+                android:layout_width="1600px"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_content_header_name"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="姓名:高衙内"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+
+                    <TextView
+                        android:id="@+id/tv_content_header_sex"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="性别:男"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_age"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="年龄:24"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_height"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="身高:130cm"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_weight"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="体重:250kg"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_content_header_number"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="病历号:97004305"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+
+                    <TextView
+                        android:id="@+id/tv_content_header_date"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="测试时间:2017-01-17 09:08"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_time"
+                        android:textSize="@dimen/content_header_text"
+                        android:text="测试时长:50秒"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="1600px"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:paddingLeft="50px"
+                    android:paddingTop="10px"
+                    android:background="#33ff00ff"
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/content_header_text"
+                        android:textStyle="bold"
+                        android:text="评审意见:"
+                        android:layout_width="230px"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_suggestion"
+                        android:textSize="15sp"
+                        android:text="现象：行走时内翻较为明显，划圈步态明显，同时伴有XXXX问题。主要原因：XXXX肌肉肌张力过高，XXXX关节活动度不足、XXXXXXX。训练重点：针对此部分问题考虑 XXXX、XXXX及XXXX等训练，循序渐进。"
+                        android:layout_width="1000px"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:id="@+id/iv_content_header_suggestion"
+                        android:layout_width="450px"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_report"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingLeft="50px"
+                    android:paddingTop="10px"
+                    android:background="#33ff00ff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/content_header_text"
+                        android:textStyle="bold"
+                        android:text="备注:"
+                        android:layout_width="230px"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_header_remark"
+                        android:textSize="15sp"
+                        android:text="拄拐、足托、搀扶"
+                        android:layout_width="1000px"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="报告管理"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回主界面"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
