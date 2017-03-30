@@ -4,61 +4,61 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text=""
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="左"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="右"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="右"
+                android:textSize="@dimen/content_header_text"/>
 
         </LinearLayout>
-
 
 
         <TextView
-            android:text="参考值"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="参考值"
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <View
-        android:background="#ff0000"
         android:layout_width="match_parent"
-        android:layout_height="1px"/>
+        android:layout_height="1px"
+        android:background="#ff0000"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,56 +66,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="支撑相(%)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="35"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="37"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="62-67"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -124,56 +124,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="摆动相(%)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="62"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="61"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="33-39"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -182,56 +182,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="步高(m)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="0.05"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="0.05"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="0.08"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="0.07-0.15"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -240,56 +240,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="摆宽(m)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="0.05"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="0.18"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:text="0.05-0.08"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -298,56 +298,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="着地仰角(°)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="24.0"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="24.0"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="23.9"
-                android:textSize="@dimen/content_header_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
-            android:text="20-30"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20-30"
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -356,56 +356,56 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:text="离地仰角(°)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/content_header_text"/>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="74.7"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="74.7"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="66.0"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="66.0"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
-            android:text="60-80"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="60-80"
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
 
     <LinearLayout
@@ -414,58 +414,57 @@
         android:orientation="horizontal">
 
         <TextView
-            android:text="着地内翻角(°)"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
-
-        <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="着地内翻角(°)"
+            android:textSize="@dimen/content_header_text"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="27.0"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="27.0"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
-                android:text="24.0"
-                android:textSize="@dimen/content_header_text"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="24.0"
+                android:textSize="@dimen/content_header_text"/>
 
             <ImageView
-                android:src="@drawable/icon_arrow"
                 android:layout_width="50px"
-                android:layout_height="50px"/>
+                android:layout_height="50px"
+                android:src="@drawable/icon_arrow"/>
 
         </LinearLayout>
 
         <TextView
-            android:text="20-30"
-            android:textSize="@dimen/content_header_text"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="20-30"
+            android:textSize="@dimen/content_header_text"/>
     </LinearLayout>
-
 
 
 </LinearLayout>
