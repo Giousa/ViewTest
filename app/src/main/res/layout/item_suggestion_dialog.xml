@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="1000px"
+              android:layout_height="800px"
+              android:background="#4400ffff"
+              android:orientation="vertical"
+              android:padding="30px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="评估意见:"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_content_dialog_assess"
+        android:layout_width="match_parent"
+        android:layout_height="330px"
+        android:background="@drawable/bg_edit_input"
+        android:gravity="top"
+        android:hint="现象：行走时内翻较为明显，划圈步态明显，同时伴有XXXX问题。
+主要原因：XXXX肌肉肌张力过高，XXXX关节活动度不足、XXXXXXX。
+训练重点：针对此部分问题考虑 XXXX、XXXX及XXXX等训练，循序渐进。"
+        android:imeOptions="actionDone"
+        android:padding="30px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="备注:"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_content_dialog_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拄拐"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_content_dialog_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="足托"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb_content_dialog_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搀扶"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_content_dialog_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="@drawable/bg_edit_input"
+        android:gravity="top"
+        android:hint="现象：行走时内翻较为明显，划圈步态明"
+        android:imeOptions="actionDone"
+        android:padding="30px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_content_dialog_cancel"
+                android:layout_width="200px"
+                android:layout_height="match_parent"
+                android:background="#00ffff"
+                android:gravity="center"
+                android:padding="10px"
+                android:text="取消"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_content_dialog_save"
+                android:layout_width="200px"
+                android:layout_height="match_parent"
+                android:background="#00ffff"
+                android:gravity="center"
+                android:padding="10px"
+                android:text="保存"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
